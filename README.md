@@ -1,6 +1,6 @@
 # react-native-paper-button
 
-This is a custom component for React Native, a simple paper button, compatible with ios and android.
+This is a custom component for React Native, a simple button from react native paper, compatible with ios and android.
 
 ## Installation
 
@@ -27,7 +27,7 @@ import { View } from 'react-native'
 import styles from './styles.js'
 
 const App = () => {
-  // Render the Button Component, recommended to use in initial screen
+  // Render the Button Component
   return (
     <View style={styles.container}>
       <Button />
