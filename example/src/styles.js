@@ -5,7 +5,8 @@ const { width, height } = Dimensions.get('window')
 const styles = {
   container: {
     flex: 1,
-    alignSelf: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 }
 
