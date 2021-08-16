@@ -69,9 +69,9 @@ The Paper Button component that displays the Button
 
 <!-- <img src="./src/Components/Button/screenshots/button.png" height="500"> -->
 
-|                             Solarized dark                              |                                 Solarized Ocean                                 |
-| :---------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
-| <img src="./src/Components/Button/screenshots/button.png" height="500"> | <img src="./src/Components/Button/screenshots/button_loading.png" height="500"> |
+|                               Button                                |                               Button_Loading                                |
+| :-----------------------------------------------------------------: | :-------------------------------------------------------------------------: |
+| <img src="./src/Components/Button/screenshots/button" height="500"> | <img src="./src/Components/Button/screenshots/button_loading" height="500"> |
 
 ## License
 
