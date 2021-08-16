@@ -18,13 +18,13 @@ const Button = (props) => {
   } = props
 
   let _isLoading = isLoading || false
-  let _color = color || 'blue'
+  let _color = color || 'teal'
   let _mode = mode || 'contained'
   let _icon = icon || null
   let _label = label || 'Press Me'
-  let _labelStyle = labelStyle || {}
   let _width = width || styles.width
   let _height = height || styles.height
+  let _labelStyle = labelStyle || { width: _width, height: _height }
   let _onPress =
     onPress ||
     function () {
@@ -37,22 +37,20 @@ const Button = (props) => {
     }
 
   return (
-    <View style={styles.container}>
-      <PaperButton
-        icon={_icon}
-        mode={_mode}
-        onPress={_onPress}
-        disabled={_isLoading}
-        onLongPress={_onLongPress}
-        loading={_isLoading}
-        color={_color}
-        labelStyle={_labelStyle}
-        style={{ width: _width, height: _height }}
-        {...props}
-      >
-        {_label}
-      </PaperButton>
-    </View>
+    <PaperButton
+      icon={_icon}
+      mode={_mode}
+      onPress={_onPress}
+      disabled={_isLoading}
+      onLongPress={_onLongPress}
+      loading={_isLoading}
+      color={_color}
+      labelStyle={_labelStyle}
+      style={{ width: _width, height: _height }}
+      {...props}
+    >
+      {_label}
+    </PaperButton>
   )
 }
 
