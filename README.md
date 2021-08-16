@@ -7,7 +7,7 @@ This is a custom component for React Native, a simple paper button, compatible w
 #### yarn
 
 ```
-yarn add https://github.com/usmankiani256/react-native-paper-button
+yarn add https://github.com/abdulhaseeb026/react-native-paper-button
 ```
 
 or
@@ -15,7 +15,7 @@ or
 #### npm
 
 ```
-npm i --save https://github.com/usmankiani256/react-native-paper-button
+npm i --save https://github.com/abdulhaseeb026/react-native-paper-button
 ```
 
 ## Usage
