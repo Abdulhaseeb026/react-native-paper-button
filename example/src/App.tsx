@@ -1,12 +1,14 @@
-import React, { useEffect } from 'react'
-import RNPaperButtonModule, { Counter } from 'react-native-paper-button'
+import * as React from 'react'
+import Button from 'react-native-paper-button'
+import { View } from 'react-native'
+import styles from './styles.js'
 
 const App = () => {
-  useEffect(() => {
-    console.log(RNPaperButtonModule)
-  })
-
-  return <Counter />
+  return (
+    <View style={styles.container}>
+      <Button />
+    </View>
+  )
 }
 
 export default App
