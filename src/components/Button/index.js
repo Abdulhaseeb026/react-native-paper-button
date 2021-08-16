@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { View } from 'react-native'
 import { Button as PaperButton } from 'react-native-paper'
 import styles from './styles'
 
@@ -24,7 +23,7 @@ const Button = (props) => {
   let _label = label || 'Press Me'
   let _width = width || styles.width
   let _height = height || styles.height
-  let _labelStyle = labelStyle || { width: _width, height: _height }
+  let _labelStyle = labelStyle || styles._labelStyle
   let _onPress =
     onPress ||
     function () {
