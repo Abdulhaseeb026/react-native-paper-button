@@ -47,7 +47,7 @@ The Paper Button component that displays the Button
 | Param       | Type       | Description                                                                    | Default                         |
 | :---------- | :--------- | :----------------------------------------------------------------------------- | :------------------------------ |
 | isLoading   | Boolean    | Whether to show a loading indicator.                                           | false                           |
-| color       | String     | Custom text color for button, or background color for contained button.        | 'blue'                          |
+| color       | String     | Custom text color for button, or background color for contained button.        | 'teal'                          |
 | mode        | contained  | Button with a background color and elevation shadow.                           | 'contained'                     |
 | icon        | IconSource | Icon to display for the Button, should be taken from Material Community Icons. | null                            |
 | label       | String     | Label for the button text.                                                     | 'Press Me'                      |
