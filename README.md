@@ -67,8 +67,6 @@ The Paper Button component that displays the Button
 
 ## Screenshot
 
-<!-- <img src="./src/Components/Button/screenshots/button.png" height="500"> -->
-
 |                                 Button                                  |                                 Button_Loading                                  |
 | :---------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
 | <img src="./src/components/Button/screenshots/button.png" height="500"> | <img src="./src/components/Button/screenshots/button_loading.png" height="500"> |
