@@ -44,19 +44,20 @@ The Paper Button component that displays the Button
 
 #### params
 
-| Param       | Type       | Description                                                                    | Default                         |
-| :---------- | :--------- | :----------------------------------------------------------------------------- | :------------------------------ |
-| isLoading   | Boolean    | Whether to show a loading indicator.                                           | false                           |
-| color       | String     | Custom text color for button, or background color for contained button.        | 'teal'                          |
-| mode        | contained  | Button with a background color and elevation shadow.                           | 'contained'                     |
-| icon        | IconSource | Icon to display for the Button, should be taken from Material Community Icons. | null                            |
-| label       | String     | Label for the button text.                                                     | 'Press Me'                      |
-| labelStyle  | Object     | Style for the button text.                                                     | width:\_width, height:\_height  |
-| width       | Number     | The width of the Button Component.                                             | width - 36                      |
-| height      | Number     | The height of the Button Component.                                            | 40                              |
-| onPress     | func       | Function to execute on press.                                                  | console.log('onPress is Fired') |
-| onLongPress | func       | Function to execute on long press.                                             | console.log('onPress is Fired') |
-| disabled    | Boolean    | A disabled button is greyed out and onPress is not called on touch.            | false                           |
+| Param        | Type       | Description                                                                     | Default                         |
+| :----------- | :--------- | :------------------------------------------------------------------------------ | :------------------------------ |
+| isLoading    | Boolean    | Whether to show a loading indicator.                                            | false                           |
+| color        | String     | Custom text color for button, or background color for contained button.         | 'teal'                          |
+| mode         | contained  | Button with a background color and elevation shadow.                            | 'contained'                     |
+| icon         | IconSource | Icon to display for the Button, should be taken from Material Community Icons.  | null                            |
+| label        | String     | Label for the button text.                                                      | 'Press Me'                      |
+| labelStyle   | Object     | Style for the button text.                                                      | null                            |
+| contentStyle | Object     | Style of button's inner content. Use this prop to apply custom height and width | {height: 40}                    |
+| width        | Number     | The width of the Button Component.                                              | width - 36                      |
+| height       | Number     | The height of the Button Component.                                             | 40                              |
+| onPress      | func       | Function to execute on press.                                                   | console.log('onPress is Fired') |
+| onLongPress  | func       | Function to execute on long press.                                              | console.log('onPress is Fired') |
+| disabled     | Boolean    | A disabled button is greyed out and onPress is not called on touch.             | false                           |
 
 <!--
 ## Contributing
