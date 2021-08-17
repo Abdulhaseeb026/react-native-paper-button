@@ -23,7 +23,8 @@ const Button = (props) => {
   let _label = label || 'Press Me'
   let _width = width || styles.width
   let _height = height || styles.height
-  let _labelStyle = labelStyle || styles._labelStyle
+  let _labelStyle = labelStyle || {}
+  let _contentStyle = { height: _height }
   let _onPress =
     onPress ||
     function () {
@@ -44,6 +45,7 @@ const Button = (props) => {
       onLongPress={_onLongPress}
       loading={_isLoading}
       color={_color}
+      contentStyle={_contentStyle}
       labelStyle={_labelStyle}
       style={{ width: _width, height: _height }}
       {...props}
